@@ -1,0 +1,162 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topmenu {
+    color: rgb(5, 63, 60);
+    background-color:   white;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration:none;
+    border-radius: 1mm;
+  }
+  
+  .topmenu:hover {
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(5, 63, 60);
+    text-decoration: underline;
+  }
+
+
+nav{
+    background-color: rgb(5, 63, 60);
+    color: aliceblue;
+    padding: 15px;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left h2 {
+    margin: 0;
+}
+
+.nav-right a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-right a:hover {
+    text-decoration: underline;
+}
+
+section{
+    padding: 40px;
+}
+
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+
+/*about me section*/
+about-me img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+about-me h1{
+    color: rgb(5, 63, 60);
+}
+ 
+about-me p{
+    max-width: 600px;
+}
+
+/*skills section*/
+figure{
+    background-color: rgb(5, 63, 60);
+    color: #F3E5F5;
+    float: left;
+    width: 200px;
+}
+
+.skills-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.skill {
+    background-color: rgb(5, 63, 60);
+    color: #F3E5F5;
+    padding: 50px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.skill p:first-child {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/*projects section*/
+.projects{
+    background-color: #F3E5F5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects li {
+    margin-bottom: 20px;
+}
+
+/*recommendations section*/
+.recommendation{
+    background-color: #F3E5F5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(5, 63, 60);
+}
+
+button {
+    margin-top: 10px;
+    background-color:rgb(5, 63, 60);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: rgb(5, 63, 60);
+}
+
+/* Footer */
+footer {
+    background-color: rgb(5, 63, 60);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.nav-right a.active {
+    text-decoration: underline;
+    color: #FFD700; /* Gold color for active link */
+}
